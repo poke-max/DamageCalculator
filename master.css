@@ -1,0 +1,133 @@
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(regular.ttf);
+}
+
+@font-face {
+  font-family: Ayar;
+  src: url(ayar.ttf);
+}
+
+@font-face {
+  font-family: Yagami;
+  src: url(light.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(bold.ttf);
+}
+
+
+.body {
+	 background-color: #efefef;
+	 width:100%;
+   height: 100%;
+	 font-family: Ayar;
+	 margin: auto;
+}
+#merch {
+  margin: auto;
+  width: 400px;
+  <background: red;
+  height: 500px;
+  margin-top: 15px;
+}
+
+#marco {
+
+  margin: auto;
+  <background: yellow;
+  width: 70%;
+  display: inline-block;
+}
+
+#polo {
+  display: inline-block;
+  position: absolute;
+}
+
+#headshot {
+  background: black;
+  color: white;
+  height: 80px;
+}
+
+#headshot a {
+  color: white;
+}
+
+#logo {
+  color: #0b76a6;
+}
+
+#site1 {
+  padding-top: 20px;
+  font-family: Poppins-Bold;
+  margin-left: 10%;
+  display: block;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+#site2 {
+  margin-left: 10%;
+  display: block;
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #999;
+  }
+
+
+.sel {
+		dis play: inline-block;
+		text-align: center;
+		outline: none;
+		font-size: 13px;
+		font-family: Ayar, Ayar;
+		color: #444;
+		line-height: 0.5px;
+    height: auto;
+		margin: 0;
+		border: 0.1px solid #666;
+	  border-radius: 0em;
+	 	background-color: #fff;}
+
+
+#pru {
+		outline: none;
+		font-size: 13px;
+		font-family: Poppins-Regular, Yagami;
+		font-weight: 400;
+		color: #444;
+		line-height: 0.8;
+		padding: .4em 1.4em .3em .8em;
+  	box-sizing: border-box;
+		margin: 0;
+		border: 0.5px solid #555;
+	 border-radius: .3em;
+	 background-color: #fff;
+	 }
+
+.input100 {
+
+.box{ padding-left:5px; padding-right:5px; border-radius:15px; -webkit-appearance:button; border: double 2px #00F; background-color:#0b0095; color:#FFF; white-space: nowrap; overflow:hidden; width:15px; height:15px; }
+
+.box:checked { background-color:#000; border-left-color:#06F; border-right-color:#06F; }
+
+.box:hover { box-shadow:0px 0px 10px #1300ff; }
+
+
+#bot {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  color:;
+}

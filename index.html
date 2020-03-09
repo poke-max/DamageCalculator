@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora de Daño</title>
+    <link rel="stylesheet" href="master.css">
+  </head>
+  <body class="body" onclick="rango()">
+
+    <header id="headshot">
+        <label id="site1">Calculadora de Daño</label>
+        <label id="site2">Pokémon Masters</label>
+
+    </header>
+    <form id="merch">
+      <div id="marco">
+
+    Ataque <input onclick="rango()" style="width:35px" maxlength="3" type="text" id="atk">
+    <input onclick="rango()" placeholder="Acc."  style="width:30px" maxlength="2" type="text" id="aac">
+    <input onclick="rango()" placeholder="Tabl." style="width:30px" maxlength="2" type="text" id="atab"><br>
+
+    Potencia <input onclick="rango()" style="width:35px" maxlength="3" type="text" id="pot">
+    <input onclick="rango()" style="width:30px" placeholder="Tabl." maxlength="3" type="text" id="ptab">
+
+    <select class="sel" id="obj">
+    <option value="1">1</option>
+    <option value="0.6666666667">2</option>
+    <option value="0.5">3</option>
+    </select><br>
+
+    <label>Aumento </label>
+    <select class="sel" id="aum">
+      <option value="1">0</option>
+      <option value="1.25">+1</option>
+      <option value="1.4">+2</option>
+      <option value="1.5">+3</option>
+      <option value="1.6">+4</option>
+      <option value="1.7">+5</option>
+      <option value="1.8">+6</option>
+    </select><br>
+
+    <label>Supereficaz </label>
+    <input class="box" type="checkbox" id="sup"><br>
+
+    <label>Crítico </label>
+    <input class="box" type="checkbox" id="cri"><br>
+
+
+    <label>Prueba </label>
+    <select id="pru">
+      <option value="120">Superexperto</option>
+      <option value="96">Experto</option>
+      <option value="64">Muy Difícil</option>
+      <option value="44">Difícil</option>
+      <option value="18">Normal</option>
+      <input type="button" id="bot" onclick="rango()" value="GO">
+    </select>
+
+
+
+  </div>
+  <div id="polo">
+
+
+<script type="text/javascript" src="main.js">
+</script>
+
+     <form class="sel">
+      <input class="sel" readonly=yes size="1%" type="text" ID=red>
+      <input readonly=yes size="1%" type="text" class="sel" ID=vali><br><br>
+      <input readonly=yes size="1%" type="text" class="sel" ID=res><br>
+      <input readonly=yes size="1%" type="text" class="sel" ID=val1><br>
+      <input size="1%" class="sel" readonly=yes type="text" ID=val2><br>
+      <input class="sel" readonly=yes size="1%" type="text" ID=val3><br>
+      <input class="sel" readonly=yes size="1%" type="text" ID=val4><br>
+      <input class="sel" readonly=yes size="1%" type="text" ID=val5><br>
+      <input class="sel" readonly=yes size="1%" type="text" ID=val6><br>
+      <input class="sel" readonly=yes size="1%" type="text" ID=val7><br>
+      <input class="sel" readonly=yes size="1%" type="text" ID=val8><br>
+      <input class="sel" readonly=yes size="1%" type="text" ID=val9><br>
+      <input class="sel" readonly=yes size="1%" type="text" ID=val10><br>
+
+      </form>
+
+
+  </div>
+</form>
+  </body>
+</html>
