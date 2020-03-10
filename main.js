@@ -25,9 +25,9 @@ function rango()
     else {s = 1;}
   }
   var pr=Number(document.getElementById('pru').value);
-  var res=Math.floor((atot*ptot*au*c*s*ob/pr));
+  var res=parseInt(parseInt(atot*ptot/pr)*ob*au*c*s);
   document.getElementById('res').value = res;
-  var red=Math.floor((atot*ptot*au*c*s*ob/pr));
+  var red=parseInt(parseInt(atot*ptot/pr)*ob*au*c*s);
   document.getElementById('red').value = red;
 
   var val1=Math.floor(res*0.99);
