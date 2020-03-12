@@ -1,3 +1,4 @@
+
 function rango()
 {
   var a=Number(document.getElementById('atk').value);
@@ -25,10 +26,10 @@ function rango()
     else {s = 1;}
   }
   var pr=Number(document.getElementById('pru').value);
-  var res=Math.round(parseInt(atot*ptot*c/pr)*ob*au*s);
+  var res=Math.round(atot*ptot*c*ob*au*s/pr);
   document.getElementById('res').value = res;
-  var red=Math.floor(parseInt(atot*ptot/pr)*ob*au*c*s);
-  document.getElementById('red').value = red;
+  var red=Math.round(parseInt(atot*ptot/pr)*ob*au*c*s);
+  document.getElementById('red').value = res;
 
   var val1=Math.round(res*0.99);
   document.getElementById('val1').value = val1;
@@ -50,7 +51,7 @@ function rango()
   document.getElementById('val9').value = val9;
   var val10=Math.round(res*0.90);
   document.getElementById('val10').value = val10;
-  var vali=Math.floor(res*0.90);
+  var vali=Math.round(res*0.90);
   document.getElementById('vali').value = vali;
 
 }
