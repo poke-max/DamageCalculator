@@ -1,4 +1,3 @@
-
 function rango()
 {
   var a=Number(document.getElementById('atk').value);
